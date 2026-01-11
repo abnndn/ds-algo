@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/
 package cp
 
-class Solution {
+class Solution_2554 {
     fun maxCount(banned: IntArray, n: Int, mSum: Int): Int {
         banned.sort()
 

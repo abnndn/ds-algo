@@ -2,7 +2,7 @@
 package cp
 
 fun main() {
-    val solution = Solution()
+    val solution = Solution_2554()
 
     // Test Case 1
     val banned1 = intArrayOf(1, 6, 5)
