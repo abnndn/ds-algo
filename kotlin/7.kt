@@ -12,7 +12,6 @@ class Solution_7 {
         val isNeg: Boolean = x<0
 
         var xx = x
-
         if (isNeg) {
             xx *= -1
         }
