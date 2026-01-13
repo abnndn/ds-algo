@@ -1,5 +1,7 @@
 package cp
 
+import kotlin.math.abs
+
 //https://leetcode.com/problems/separate-squares-i/?envType=daily-question&envId=2026-01-13
 class Solution_2453 {
     fun separateSquares(squares: Array<IntArray>): Double {
