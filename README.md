@@ -17,3 +17,11 @@ Build system link - https://github.com/luvk1412/Competitive-Programming/blob/mas
 command + option + "window count" : split sublime window into multiple tabs.
 
 command + shift + B : to compile code.
+
+-----------------
+
+| Date              | LeetCode Rank | Solves                                           | Comments |
+|:------------------|:--------------|:-------------------------------------------------|:---------|
+| [30 January 2026] | 250,466       | Easy 182/922 <br> Med  214/1997 <br> Hard 23/903 | -        |
+|                   |               |                                                  |          |
+
