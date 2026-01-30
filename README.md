@@ -20,6 +20,10 @@ command + shift + B : to compile code.
 
 -----------------
 
+### Leetcode details:
+
+Profile - https://leetcode.com/u/abnndn/
+
 | Date              | LeetCode Rank | Solves                                           | Comments |
 |:------------------|:--------------|:-------------------------------------------------|:---------|
 | [30 January 2026] | 250,466       | Easy 182/922 <br> Med  214/1997 <br> Hard 23/903 | -        |
