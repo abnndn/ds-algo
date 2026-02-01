@@ -24,8 +24,9 @@ command + shift + B : to compile code.
 
 Profile - https://leetcode.com/u/abnndn/
 
-| Date              | LeetCode Rank | Solves                                           | Comments |
-|:------------------|:--------------|:-------------------------------------------------|:---------|
-| [30 January 2026] | 250,466       | Easy 182/922 <br> Med  214/1997 <br> Hard 23/903 | -        |
-|                   |               |                                                  |          |
+| Date              | LeetCode Rank | Solves                                                | Comments                                             |
+|:------------------|:--------------|:------------------------------------------------------|:-----------------------------------------------------|
+| [30 January 2026] | 250,466       | Easy [182/922] <br> Med [214/1997] <br> Hard [23/903] | -                                                    |
+| [1 February 2026] | 242,476       | Easy [185/924] <br> Med [217/2001] <br> Hard [23/905] | Created a List - "Good Mediums" <br> To solve later. |
+|                   |               |                                                       |                                                      |
 
