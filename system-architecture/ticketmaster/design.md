@@ -10,11 +10,11 @@ Ticketmaster is an online platform that allows uses to purchase tickets for conc
 Roadmap for any system design interview: <br>
 1. Requirements - Functional and Non functional.
 2. Core Entities
-3. API
-4. High level design
-5. Deep dives
+3. API or Interface
+4. Data flow
+5. High level design
+6. Deep dives
 
------------------------------------------------
 -----------------------------------------------
 
 **Functional Requirements:**
