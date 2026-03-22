@@ -21,7 +21,7 @@ Sections:
 
 ### Section 1: Motivating Example: The World cup.
 
-![motivating-example](./motivating-example.svg)
+![motivating-example](motivating-example.svg)
 reference: motivating-example.excalidraw [https://excalidraw.com/]
 
 ----------------------
@@ -111,7 +111,7 @@ const run = async () => {
 }
 ```
 
-![kafka-overview](./kafka-overview.svg)
+![kafka-overview](kafka-overview.svg)
 reference: kafka-overview.excalidraw [https://excalidraw.com/]
 
 --------------------------------------------------------------------------
