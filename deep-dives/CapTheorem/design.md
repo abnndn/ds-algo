@@ -95,3 +95,35 @@ Different parts of the system can have different requirements.
 3. Read-your-writes Consistency: User sees their own updates.
 4. Eventual Consistency: Updates will propagate eventually.
    * This is what we'll have if prioritizing Availability.
+
+------------------------------------------------------------------------
+
+# PACELC Theorem
+Advanced version of CAP theorem.
+
+The problem with CAP is that it only tells you how to behave during a disaster (a partition). 
+But what about normal operations when the network is perfectly fine?
+
+If there is a Partition (P) -> choose Availability (A) or Consistency (C).
+
+Else (E) (when the network is normal) -> choose Latency (L) or Consistency. (C)
+
+`PA/EC scenario`: (Partition broken -> Availability, Else -> Consistency)
+Global Credit Card Payment Network (Visa/Mastercard).
+When things are fine, I will gladly make the user wait a few extra milliseconds to guarantee
+perfect accuracy. 
+But if the network catches fire, do whatever it takes to keep the business running,
+even if it causes a mess we have to clean up later.
+In this case, READs can be allowed, and small WRITEs (small transactions) can be allowed.
+
+`PC/EL scenario`: (Partition broken -> Consistency, Else -> Latency)
+Managed databases, with READ replicas distributed across regions.
+Say, handling write traffic on `medium.com`
+When everything working fine, write request comes for an article. Save it in 1 region, return sucess,
+and replicate it to other regions.
+When physical connection broken b/w 2 systems, write request denied. 
+
+Doesn't reply apply for READ requests for medium posts. 
+Even for write, Read-your-writes Consistency can be managed when partition is down. Depends on requirements.
+
+------------------------------------------------------------------------

@@ -3,7 +3,9 @@
 ### System Design Interview: Design Ticketmaster w/ a Ex-Meta Staff Engineer
 https://www.hellointerview.com/learn/system-design/problem-breakdowns/ticketmaster
 
-Question: <br>
+------------------------------------------------------------------------------------------
+
+### Question: <br>
 Ticketmaster is an online platform that allows uses to purchase tickets for concerts, sports events, theater, and other live entertainment, has ~100M DAU.
 
 
@@ -124,6 +126,7 @@ Incase the ticketLock goes down.
 -------------------------------------------------
 
 **Deep dive:** (15 minutes) <br>
+
 Now that all the FRs and NFRs are complete, we should focus on improving the solution.
 
 In this section, you should find 1-3 areas which shows that you're a senior dev, who knows what he's doing.

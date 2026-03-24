@@ -87,7 +87,7 @@ reference: hld-without-deep-dive.excalidraw [https://excalidraw.com/]
 
 * Have created a single chat server, that serves all the traffic, obviously not ideal.
 * This covers all the functional requirements. 
-* The nest step in the deep dive section is going to be about the non-functional requirements. 
+* The next step in the deep dive section is going to be about the non-functional requirements. 
 * While coming up with this basic design, consistently remind the interviewer that you're taking some shortcuts and will come back to these.
 
 -------------------------------------------------------
@@ -114,6 +114,7 @@ Other deep dives:
 ![hld-with-deep-dive](./hld-with-deep-dive.svg)
 reference: hld-with-deep-dive.excalidraw [https://excalidraw.com/]
     
+-------------------------------------------------------
 
 
 
